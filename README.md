@@ -11,6 +11,7 @@
   - [Modern Operating Systems](https://en.wikipedia.org/wiki/Modern_Operating_Systems)
   - [Tanenbaum–Torvalds debate](https://en.wikipedia.org/wiki/Tanenbaum%E2%80%93Torvalds_debate)
   - [minix3](https://www.minix3.org/)
+- [How to pronounce Linus vs Linux?](https://www.youtube.com/watch?v=E9JGP-HeO8w)
 - Linux Philosophy
   - [Single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) e.g. ls,pwd
   - [Nine major tenets](https://opensource.com/business/15/2/how-linux-philosophy-affects-you)
@@ -27,7 +28,8 @@
 ### Thursday Afternoon
 
 - VsCode
-- HTML, Emmets
+- HTML
+- [Emmets](https://docs.emmet.io/abbreviations/syntax/)
 - Activities:
   - [Activity 3](./activity3.md)
   - [Activity 4](./activity4.md)

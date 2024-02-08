@@ -6,7 +6,7 @@ In this lab, you will learn how to create a basic website and apply CSS (Cascadi
 - Visual Studio Code (VSCode) installed on your computer.
 - Basic knowledge of HTML and CSS.
 
-### Part 1/2
+### Part 1/3
 
 **Instructions:**
 
@@ -92,7 +92,7 @@ In this lab, you will learn how to create a basic website and apply CSS (Cascadi
     - Save both your HTML and CSS files.
     - Open the HTML file in a web browser to see the styled webpage.
 
-### Part 2/2: Instructions for Writing a Simple HTML Page Using Emmet
+### Part 2/3: Instructions for Writing a Simple HTML Page Using Emmet
 
 In this task, you will create a basic HTML page using Emmet, a shorthand syntax for writing HTML and CSS quickly and efficiently. Emmet allows you to write HTML code using simple abbreviations and shortcuts.
 
@@ -126,3 +126,8 @@ In this task, you will create a basic HTML page using Emmet, a shorthand syntax 
 
 7. **Preview Your HTML Page:**
    - Open your HTML file in a web browser to preview the content and layout of your simple HTML page.
+
+### Part 3/3
+
+- Write the necessary HTML to make your page look ![like this.](html_mock1.png)
+- Compare your solution to [this](./solution.html)
