@@ -67,8 +67,8 @@
 
 1. Run the following commands
 ```bash
-$ sudo apt update && sudo apt upgarde
-$ sudo apt install gnom-session-bin
+$ sudo apt update && sudo apt upgrade
+$ sudo apt install gnome-session-bin
 
 ```
 
@@ -85,6 +85,8 @@ $ gnome-session-quit
 
 - To start GUI manually from a command line
 ```bash
+$ sudo systemctl isolate graphical
+# or
 $ startx
 ``` 
 
@@ -93,9 +95,31 @@ $ startx
 $ sudo systemctl set-default graphical
 ```
 
-<!-- - (For Gnome) To start GUI manually from a command line
+
+- Install VirtualBox Guest Additions on Ubuntu
 ```bash
-$ sudo systemctl start gdm3
-``` -->
+sudo apt update
+sudo apt upgrade
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+``` 
+Next, from the Virtual Machine menu bar, go to “Devices” and click on "Insert Guest Additions CD image." This helps to mount the Guest Additions ISO file inside your virtual machine.
+
+<!-- 
+- (For Gnome) To start GUI manually from a command line
+```bash
+sudo systemctl start gdm3
+```
+-->
+
+<!-- 
+- Install VirtualBox Guest Additions on Ubuntu
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+``` 
+Next, from the Virtual Machine menu bar, go to “Devices” and click on "Insert Guest Additions CD image." This helps to mount the Guest Additions ISO file inside your virtual machine.
+https://linuxiac.com/ubuntu-with-virtualbox/
+-->
 
 - [Ref](https://linuxconfig.org/how-to-disable-enable-gui-on-boot-in-ubuntu-20-04-focal-fossa-linux-desktop)
